@@ -8,3 +8,6 @@
 function centuryFromYear( year ) {
 	return Math.ceil( year / 100 );
 }
+
+// ES6 version
+// const centuryFromYear = y => Math.ceil( y / 100 );
